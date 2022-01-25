@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@800&family=Festive&family=Open+Sans:ital,wght@1,300&family=Poppins:wght@200;400;600&family=Roboto:wght@100;300&family=Ubuntu:wght@300;400&family=Varela+Round&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@800&family=Festive&family=Open+Sans:ital,wght@1,300&family=Poppins:wght@200;400;600&family=Roboto:wght@100;300&family=Ubuntu:wght@300;400&family=Varela+Round&display=swap');
+body{
+    font-family: 'Open Sans', sans-serif;
+    border-color: black;
+}
+
+ *{
+    padding: 0;
+    margin: 0;
+}
+.col-{
+    background-color: gray;
+    height: 550px;
+    width: 1000px;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+    margin: 20px auto;
+}
+h1{
+    background: black;
+    font-size: 50px;
+    color: red;
+    font-family: 'Ubuntu', cursive;
+    height: auto;
+    width: auto;
+
+}
+#calculator{
+    width: 320px;
+    height: 520px;
+    background: skyblue ;
+    margin: 0 auto;
+    top: 20px;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#result{
+    height: 120px;
+}
+#history{
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px; 
+    font-size: 15px;
+    color: royalblue;
+}
+#output{
+    text-align: right;
+    height: 60px;
+   margin: 10px 20px;
+   font-size: 30px;
+    
+}
+#keyboard{
+    height: 400px;
+}
+.operator,.number,.empty{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 15px;
+}
+.number,.empty{
+    background-color: #fff;
+
+}
+.operator,.number{
+    cursor: pointer;
+}
+.operator:active, .number:active{
+    font-size: 13px;
+}
+.operator:focus, .number:focus, .empty:focus{
+    outline: 0;
+}
+.number:hover{
+    color: red;
+    background: black;
+}
+.operator:hover{
+    color: blue;
+    background: brown;
+}
+.empty:hover{
+    background-color: gray;
+}
+button:nth-child(4){
+    font-size: 20px;
+    background-color: #ffa500;
+}
+button:nth-child(8){
+    font-size: 20px;
+    background-color: #20b2aa;
+}
+
+button:nth-child(12){
+    font-size: 20px;
+    background-color: #f08080;
+}
+
+button:nth-child(16){
+    font-size: 20px;
+    background-color: #7d93e0;
+}
+
+button:nth-child(20){
+    font-size: 20px;
+    background-color: #9477af;
+}
+
+  
+  /* @media only screen and (min-width: 500px) {
+    body {
+      background-color: none;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: none;
+    }
+  } */
+  [class*="col-"] {
+    width: 100%;
+  }
+  
+  @media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+  }
+  
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
+
+  
